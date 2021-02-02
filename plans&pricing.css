@@ -1,0 +1,156 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0%;
+    margin:0%;
+    color: white;
+    overflow:hidden auto;
+}
+.myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+#container{
+    margin-top: 10px;
+    max-width: 100%;
+    position:fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    height:80px;
+    width:380px;
+    margin-left:10px;
+}
+
+#container .logo img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    height: 70px;
+    max-width:70px;
+    display: block;
+}
+#container .logo div{
+    font-size: 45px;
+    display:inline-block;
+    text-align: center;
+    top: 12px;
+    color: white;
+    left: 100px;
+    position: absolute;
+}
+#container .mid {
+    height:100%;
+    width:840px;
+    top: 0%;
+    position: absolute;
+    display: block;
+    margin-left:600px;
+}
+.navbar li{
+    display: inline-block;
+    margin-top: 10px;    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 34px 20px;
+}
+.navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+}
+#container .social{
+    height:100%;
+    width:310px;
+    top: 0%;
+    position: absolute;
+    display: block;
+    margin-left:1580px;
+}
+.social{
+    z-index: 1;
+}
+.social li{
+    display: inline-block;
+}
+.social li img{
+    max-height: 50px;
+    width: 50px;
+    margin-left:10px;
+    display: inline;
+}
+
+
+.body{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.body h2{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+
+
+
+
+#also{
+    width:100%;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+}
+#also .join{
+    margin: 50px 300px;
+    width: 320px;
+    position: absolute;
+    display: inline-block;
+}
+#also input{
+    border: none;
+    border-bottom: 2px white solid;
+    background: transparent;
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    margin: 140px 690px;
+    color: white;
+}
+#also input::placeholder{
+    font-size: 15px;
+    color: white;
+}
+#also button{
+    padding: 10px 25px;
+    display: block;
+    position: absolute;
+    margin: 140px 900px;
+    border: 1px black solid;
+}
+#also #google{
+    width: 150px;
+    height: 50px;
+    margin: 130px 1040px;
+    display: block;
+    position: absolute;
+}
+#also #appstore{
+    width: 90px;
+    height: 80px;
+    display: block;
+    margin: 110px 1200px;
+    position: absolute;
+}

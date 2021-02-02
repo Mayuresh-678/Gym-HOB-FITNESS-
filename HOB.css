@@ -1,0 +1,321 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0%;
+    margin:0%;
+    color: white;
+    overflow:hidden auto;
+}
+.myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+#container{
+    margin-top: 10px;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.logo {
+    height:80px;
+    width:380px;
+    margin-left:10px;
+}
+
+#container .logo img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    height: 70px;
+    max-width:70px;
+    display: block;
+}
+#container .logo div{
+    font-size: 45px;
+    display:inline-block;
+    text-align: center;
+    top: 12px;
+    left: 100px;
+    color: white;
+    position: absolute;
+}
+#container .mid {
+    height:100%;
+    width:840px;
+    top: 0%;
+    position: absolute;
+    display: block;
+    margin-left:600px;
+}
+.navbar li{
+    display: inline-block;
+    margin-top: 10px;    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 34px 20px;
+}
+.navbar li a:hover,
+    .navbar li a.active {
+        color: grey;
+}
+#container .social{
+    height:100%;
+    width:310px;
+    top: 0%;
+    position: absolute;
+    display: block;
+    margin-left:1580px;
+}
+
+.social li{
+    display: inline-block;
+}
+.social li img{
+    max-height: 50px;
+    width: 50px;
+    margin-left:10px;
+    display: inline;
+}
+.home{
+    max-height:1000px;
+    max-width: 100%;
+}
+.home .first-container{
+    margin-top: 200px;
+    margin-left: 400px;
+    width: 400px;
+    height: 280px;
+}
+.first-container h1{
+    font-size: 80px;
+    margin-top: 5px;
+    position: relative;
+}
+.home .second-container{ 
+    margin-left: 400px;
+    position: relative;
+    width: 800px;
+    height: 150px; 
+}
+.second-container h3{
+    margin-top: 8px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.second-container a button{
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: red 2px solid;
+    padding: 15px 25px;
+}
+.second-container a button:hover{
+    background-color: red;
+}
+#aboutus{
+    position: relative;
+}
+#aboutus .container1{
+    max-width: 100%;
+    height: 150px;
+    margin-top: 230px;
+    background-color: red;
+}
+#aboutus .container1 h3{
+    max-width: 1000px;
+    text-align: center;
+    margin-left: 25%;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    padding:  28px 0px;
+}
+#aboutus .both {
+    max-width: 100%;
+    height: 682px;
+    position: relative;
+}
+.both .img{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position:absolute;
+}
+.both .para{
+    min-width: 50%;
+    height: 682px;
+    background-color: black;
+    margin-left: 50.2%;
+    display: block;
+    position: absolute ;
+}
+.para .parainfo{
+    margin: 100px 100px;
+    max-width: 500px;
+}
+#services{
+    margin-top: 0px;
+    background: url("requirements/1e47b2_b5556ecfae2f4690aa916577faa99062.webp");
+    height: 820px;
+    width: 100%;
+    position: absolute; 
+    align-content: center;
+}
+#cyw{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+#services p{
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    margin-left: 32%;
+    width: 707.28px;
+    font-size: 18px;
+}
+#services a{
+    text-decoration: none;
+    /* width:600px; */
+    margin-left: 22%;
+    color: red;
+    font-size: 100px;
+    position: relative;
+}
+#services button{
+    background-color: black;
+    color: white;
+    border: red 2px solid;
+    padding: 15px 25px;
+    margin-left: 44%;
+}
+#services button:hover{
+    background-color: red;
+}
+#contact{
+    background-color:#222222;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin-top: 820px;
+}
+#contact .address{
+    height:550px;
+    width: 500px;
+    margin: 50px 400px;
+    display: inline-block;
+    position: absolute;
+}
+.address h1{
+    font-size: 45px;
+    margin: 30px 10px;
+}
+.address h3{
+    font-size: 20px;
+    margin-left: 10px;
+    top: 0;
+}
+.address p{
+    width: 400px;
+    margin: 30px 10px;
+}
+#contact .form{
+    height: 440px;
+    width: 444px ;
+    display: block;
+    position: absolute;
+    margin: 50px 60%;
+}
+#contact .formgroup{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.formgroup input{
+    border: white 3px solid;
+    background-color: black;
+    width: 400px;
+    height: 25px;
+    color: white;
+}
+#con-titel{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0px;
+}
+.form button{
+    margin-left: 328px; 
+    margin-top: 10px; 
+    padding: 10px 25px;
+    border: red 2px solid; 
+    background-color: black; 
+    color: white; 
+}
+.form button:hover{
+    background-color: red;
+}
+#also{
+    width:100%;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+}
+#also .join{
+    margin: 50px 300px;
+    width: 320px;
+    position: absolute;
+    display: inline-block;
+}
+#also input{
+    border: none;
+    border-bottom: 2px white solid;
+    background: transparent;
+    display: block;
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    margin: 140px 690px;
+    color: white;
+}
+#also input::placeholder{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+#also button{
+    padding: 10px 25px;
+    display: block;
+    position: absolute;
+    margin: 140px 900px;
+    border: 1px black solid;
+}
+#also #google{
+    width: 150px;
+    height: 50px;
+    margin: 130px 1040px;
+    display: block;
+    position: absolute;
+}
+#also #appstore{
+    width: 90px;
+    height: 80px;
+    display: block;
+    margin: 110px 1200px;
+    position: absolute;
+}
+#also #uparrow{
+    width: 30px;
+    height:30px;
+    position: relative;
+    margin: 70px 1260px;
+}
